@@ -6,9 +6,9 @@ class Deathscythewalk {
         // the width of the deathscythe in pixels is 80 pixels. 
         // the height of the deathscythe in pixels is 114 pixels.
         // the spritesheet was made with bad overlaps though, so I need to fix it manually.
-        this.x = 0;
-        this.y = 100;
-        this.speed = 400;
+        this.x = -200;
+        this.y = 200;
+        this.speed = 350;
 
 
 
@@ -16,7 +16,7 @@ class Deathscythewalk {
 
     update() {
         this.x += this.speed * this.game.clockTick
-        if(this.x > 1024) this.x = -200;
+        if(this.x > 1024) this.x = -80;
 
     };
 
