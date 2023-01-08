@@ -8,7 +8,7 @@ class Deathscythewalk {
         // the spritesheet was made with bad overlaps though, so I need to fix it manually.
         this.x = 0;
         this.y = 0;
-        this.speed = 100;
+        this.speed = 300;
 
 
 
