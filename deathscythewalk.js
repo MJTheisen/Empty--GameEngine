@@ -16,7 +16,7 @@ class Deathscythewalk {
 
     update() {
         this.x += this.speed * this.game.clockTick
-        if(this.x > 1024) this.x = -80;
+        if(this.x > 1024) this.x = 0;
 
     };
 
