@@ -11,7 +11,6 @@ class Deathscythewalk {
         this.speed = 150;
 
 
-
     };
 
     update() {
